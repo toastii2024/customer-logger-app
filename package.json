@@ -1,6 +1,7 @@
 {
   "name": "customer-logger-app",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -8,7 +9,7 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
