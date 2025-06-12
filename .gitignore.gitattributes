@@ -1,3 +1,21 @@
+# 不要把這些上傳到 GitHub（防止 Vercel 出錯）
+
+# Node.js modules
 node_modules/
+
+# Vite build output
 dist/
+
+# 環境變數（如果有）
 .env
+.env.*.local
+
+# VSCode 開發設定（如果你用 VSCode）
+.vscode/
+
+# macOS / Windows 系統檔案
+.DS_Store
+Thumbs.db
+
+# lock files (可依專案需求選擇忽略與否)
+package-lock.json
